@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,6 @@
   },
   "homepage": "https://github.com/AleksandraSimeonova/DolniVit_community_center#readme",
   "devDependencies": {
+    "lite-server": "^2.6.1"
   }
 }
