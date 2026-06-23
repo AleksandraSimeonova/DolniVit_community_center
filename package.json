@@ -1,0 +1,22 @@
+{
+  "name": "dolnivit_community_center",
+  "version": "1.0.0",
+  "description": "The website of the Dolni Vit Community Center aims to promote the center's activities, events, and cultural initiatives, while providing public access to important documents, announcements, and information for the local community.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandraSimeonova/DolniVit_community_center.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandraSimeonova/DolniVit_community_center/issues"
+  },
+  "homepage": "https://github.com/AleksandraSimeonova/DolniVit_community_center#readme",
+  "devDependencies": {
+  }
+}
