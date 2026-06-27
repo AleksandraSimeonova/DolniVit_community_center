@@ -22,6 +22,7 @@
     "lite-server": "^2.6.1"
   },
   "dependencies": {
+    "firebase": "^12.15.0",
     "lit-html": "^3.3.3",
     "page": "^1.11.6"
   }
