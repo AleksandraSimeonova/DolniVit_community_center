@@ -1,6 +1,9 @@
 import { render, html } from "../lib/lit-html.js";
 
-const template = () => html`
+const rootElement = document.getElementById('root');
+
+
+const layoutTemplate = (body, ctx) => html`
 
 
     <!-- Navigation -->
@@ -34,8 +37,10 @@ const template = () => html`
     </nav>
 
 
+<div>
+    ${body}
+</div>
 
-    
     <!-- Footer -->
     <footer class="bg-green-900 text-white py-10">
         <div class="max-w-7xl mx-auto px-6 text-center">
@@ -51,3 +56,14 @@ const template = () => html`
 
 
 `
+
+
+export default function (ctx, next) {
+
+    
+    ctx.render = (templateResult) => {
+        render(layoutTemplate(templateResult, ctx), rootElement);
+    };
+
+    next();
+}

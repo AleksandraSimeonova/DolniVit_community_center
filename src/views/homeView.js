@@ -2,9 +2,6 @@ import { render, html } from "../lib/lit-html.js";
 
 const template = () => html`
 
-
-
-
     <!-- Hero Section -->
     <section class="relative bg-green-800 text-white">
         <div class="absolute inset-0 bg-black/40"></div>
@@ -154,7 +151,7 @@ const template = () => html`
 
 export default function(ctx){
 
-    ctx.render()
+    ctx.render(template())
 }
 
 
