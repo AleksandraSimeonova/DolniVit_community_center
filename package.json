@@ -20,5 +20,8 @@
   "homepage": "https://github.com/AleksandraSimeonova/DolniVit_community_center#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "page": "^1.11.6"
   }
 }

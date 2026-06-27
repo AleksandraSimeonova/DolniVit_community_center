@@ -1,1 +1,4 @@
-console.log("it is working");
+import homeView from "./views/homeView.js";
+
+
+homeView();
