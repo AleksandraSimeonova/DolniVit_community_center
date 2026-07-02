@@ -10,4 +10,5 @@ The website of the Dolni Vit Community Center aims to promote the center's activ
    - [x] Tailwind CSS with UI components
    - [x] Page.js for routing
    - [x] Lit-html for templating
-   - [] Bundling with vite
+   - [x] Local Dev server with Vite
+   - [x] Vite Bundling with vite
