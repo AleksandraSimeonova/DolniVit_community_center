@@ -5,8 +5,9 @@ The website of the Dolni Vit Community Center aims to promote the center's activ
 
 
 ## Tech Stack
-   * Vanila JS
-   * Firebase for backend, hosting
-   * Tailwind CSS with UI components
-   * Page.js for routing
-   * Lit-html for templating
+   - [x] Vanila JS
+   - [] Firebase for backend, hosting
+   - [x] Tailwind CSS with UI components
+   - [x] Page.js for routing
+   - [x] Lit-html for templating
+   - [] Bundling with vite
